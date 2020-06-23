@@ -146,10 +146,7 @@
                     <div class="row justify-content-between">
                         <div class="col-auto my-3">
                             <div class="d-flex align-items-baseline">
-                                <h2 class="h3 mb-0 mr-2">CMS</h2>
-                                <ol class="breadcrumb bg-transparent border-0 rounded-0 p-0 mb-0">
-                                    <li class="breadcrumb-item"><a class="text-black-50"><span class="h5 mb-0">Elementy treści</span></a></li>
-                                </ol>
+                                <h2 class="h3 mb-0 mr-2">Moduły</h2>
                             </div>
                         </div>
                     </div>
@@ -158,36 +155,40 @@
             <div class="bg-white shadow-sm pt-3 pb-2 border-bottom">
                 <div class="container">
                     <div class="btn-toolbar d-flex justify-content-between">
-                        <div class="btn-group btn-group-sm mr-2" role="group"><a class="btn btn-success text-uppercase d-flex align-items-center mb-2" role="button" href="#"><i class="icon-plus mr-2"></i><span class="text-nowrap">Dodaj</span></a></div>
-                        <div class="btn-group btn-group-sm flex-wrap" role="group"><button class="btn btn-info text-uppercase d-flex align-items-center mb-2" type="button"><i class="icon-magnifier mr-2"></i><span class="text-nowrap">Wyszukaj</span></button></div>
+                        <div class="btn-group btn-group-sm mr-2" role="group"><a class="btn btn-primary text-uppercase d-flex align-items-center mb-2" role="button" href="modules.html"><i class="icon-action-undo mr-2"></i><span class="text-nowrap">Powrót</span></a></div>
+                        <div class="btn-group btn-group-sm flex-wrap"
+                            role="group"><button class="btn btn-success text-uppercase d-flex align-items-center mb-2" type="button"><i class="icon-check mr-2"></i><span class="text-nowrap">Zapisz</span></button></div>
                     </div>
                 </div>
             </div>
             <div class="mt-4">
                 <div class="container">
-                    <div class="table-responsive bg-white shadow-sm vertical--middle">
-                        <table class="table">
-                            <thead>
-                                <tr class="bg-light">
-                                    <th>Tytuł</th>
-                                    <th class="text-right">Opcje</th>
-                                </tr>
-                            </thead>
-                            <tbody class="vertical--middle">
-                                <tr>
-                                    <th>
-                                        <div class="d-flex align-items-center"><span>Adres</span></div>
-                                    </th>
-                                    <td>
-                                        <div class="btn-toolbar justify-content-end">
-                                            <div class="btn-group btn-group-sm ml-2" role="group"><button class="btn btn-success text-uppercase d-flex align-items-center" type="button"><i class="icon-pencil mr-2"></i><span>Edytuj</span></button><button class="btn btn-danger text-uppercase d-flex align-items-center ml-2"
-                                                    type="button"><i class="icon-trash mr-2"></i><span>Usuń</span></button></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <form>
+                        <div class="form-group">
+                            <div class="form-row align-items-baseline">
+                                <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2"><label class="col-form-label">Nazwa</label></div>
+                                <div class="col"><input class="shadow-sm form-control" type="text" value="Menu główne"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row align-items-baseline">
+                                <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2"><label class="col-form-label">Pozycja</label></div>
+                                <div class="col"><input class="shadow-sm form-control" type="text" value="menu-main"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row align-items-baseline">
+                                <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2"><label class="col-form-label">Komponent</label></div>
+                                <div class="col"><select class="shadow-sm form-control" disabled=""><option value="">Wybierz</option><option value="banner">Banner</option><option value="menu" selected="">Menu</option></select></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row align-items-baseline">
+                                <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2"><label class="col-form-label">Menu</label></div>
+                                <div class="col"><select class="shadow-sm form-control"><option value="">Wybierz</option><option value="" selected="">Menu główne</option><option value="">Stopka</option></select></div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </main>

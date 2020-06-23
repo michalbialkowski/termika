@@ -158,37 +158,34 @@
             <div class="bg-white shadow-sm pt-3 pb-2 border-bottom">
                 <div class="container">
                     <div class="btn-toolbar d-flex justify-content-between">
-                        <div class="btn-group btn-group-sm mr-2" role="group"><a class="btn btn-success text-uppercase d-flex align-items-center mb-2" role="button" href="redirections-edit.html"><i class="icon-plus mr-2"></i><span class="text-nowrap">Dodaj</span></a></div>
+                        <div class="btn-group btn-group-sm mr-2" role="group"><a class="btn btn-primary text-uppercase d-flex align-items-center mb-2" role="button" href="redirections.html"><i class="icon-action-undo mr-2"></i><span class="text-nowrap">Powrót</span></a></div>
                         <div class="btn-group btn-group-sm flex-wrap"
-                            role="group"><button class="btn btn-info text-uppercase d-flex align-items-center mb-2" type="button"><i class="icon-magnifier mr-2"></i><span class="text-nowrap">Wyszukaj</span></button></div>
+                            role="group"><button class="btn btn-success text-uppercase d-flex align-items-center mb-2" type="button"><i class="icon-check mr-2"></i><span class="text-nowrap">Zapisz</span></button></div>
                     </div>
                 </div>
             </div>
             <div class="mt-4">
                 <div class="container">
-                    <div class="table-responsive bg-white shadow-sm vertical--middle">
-                        <table class="table">
-                            <thead>
-                                <tr class="bg-light">
-                                    <th>Żródło</th>
-                                    <th>Cel</th>
-                                    <th class="text-right">Opcje</th>
-                                </tr>
-                            </thead>
-                            <tbody class="vertical--middle">
-                                <tr>
-                                    <th><a href="redirections-edit.html">/o-nas</a></th>
-                                    <td>/o-firmie</td>
-                                    <td>
-                                        <div class="btn-toolbar justify-content-end">
-                                            <div class="btn-group btn-group-sm ml-2" role="group"><a class="btn btn-success text-uppercase d-flex align-items-center" role="button" href="redirections-edit.html"><i class="icon-pencil mr-2"></i><span>Edytuj</span></a><button class="btn btn-danger text-uppercase d-flex align-items-center ml-2"
-                                                    type="button"><i class="icon-trash mr-2"></i><span>Usuń</span></button></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <form>
+                        <div class="form-group">
+                            <div class="form-row align-items-baseline">
+                                <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2"><label class="col-form-label">Źródło</label></div>
+                                <div class="col"><input class="shadow-sm form-control" type="text" value="/o-nas"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row align-items-baseline">
+                                <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2"><label class="col-form-label">Cel</label></div>
+                                <div class="col"><input class="shadow-sm form-control" type="text" value="/o-firmie"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row align-items-baseline">
+                                <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2"><label class="col-form-label">Status</label></div>
+                                <div class="col"><input type="checkbox" class="shadow-sm" label="switch" checked=""></div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </main>

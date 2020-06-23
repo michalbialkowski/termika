@@ -32,9 +32,9 @@
                                         </li>
                                         <li class="nav-item d-flex align-items-center"><a class="nav-link text-dark" href="pages.html"><span class="text-uppercase">Strony</span></a></li>
                                         <li class="nav-item dropdown d-flex align-items-center"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="text-uppercase mr-1">Komponenty</span></a>
-                                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="banners.html">Bannery</a><a class="dropdown-item" role="presentation" href="remit.html">Remit</a><a class="dropdown-item" role="presentation" href="proceedings.html">Aktualne postępowania</a>
+                                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="banners.html">Bannery</a><a class="dropdown-item" role="presentation" href="properties.html">Nieruchomości</a><a class="dropdown-item" role="presentation" href="redirections.html">Przekierowania</a>
                                                 <a
-                                                    class="dropdown-item" role="presentation" href="properties.html">Nieruchomości</a><a class="dropdown-item" role="presentation" href="search.html">Wyszukiwarka</a><a class="dropdown-item" role="presentation" href="redirections.html">Przekierowania</a></div>
+                                                    class="dropdown-item" role="presentation" href="remit.html">Remit</a><a class="dropdown-item" role="presentation" href="search.html">Wyszukiwarka</a><a class="dropdown-item" role="presentation" href="announcements.html">Zamówienia publiczne</a></div>
                                         </li>
                                         <li class="nav-item d-flex align-items-center"><a class="nav-link text-dark" href="modules.html"><span class="text-uppercase">Moduły</span></a></li>
                                         <li class="nav-item dropdown d-flex align-items-center"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="text-uppercase mr-1">System</span></a>
@@ -83,12 +83,12 @@
                             <div class="container"><span class="text-uppercase lead font-weight-normal">Komponenty</span>
                                 <ul class="list-unstyled mt-1">
                                     <li><a href="news.html">Aktualności</a></li>
-                                    <li><a href="proceedings.html">Aktualne postępowania</a></li>
                                     <li><a href="banners.html">Bannery</a></li>
                                     <li><a href="properties.html">Nieruchomości</a></li>
                                     <li><a href="redirections.html">Przekierowania</a></li>
                                     <li><a href="../remit.html">Remit</a></li>
                                     <li><a href="search.html">Wyszukiwarka</a></li>
+                                    <li><a href="announcements.html">Zamówienia publiczne</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -151,8 +151,9 @@
             <div class="bg-white shadow-sm pt-3 pb-2 border-bottom">
                 <div class="container">
                     <div class="btn-toolbar d-flex justify-content-between">
-                        <div class="btn-group btn-group-sm mr-2" role="group"><a class="btn btn-success text-uppercase d-flex align-items-center mb-2" role="button" href="#"><i class="icon-plus mr-2"></i><span class="text-nowrap">Dodaj</span></a></div>
-                        <div class="btn-group btn-group-sm flex-wrap" role="group"><button class="btn btn-info text-uppercase d-flex align-items-center mb-2" type="button"><i class="icon-magnifier mr-2"></i><span class="text-nowrap">Wyszukaj</span></button></div>
+                        <div class="btn-group btn-group-sm mr-2" role="group"><a class="btn btn-success text-uppercase d-flex align-items-center mb-2" role="button" href="remit-edit.html"><i class="icon-plus mr-2"></i><span class="text-nowrap">Dodaj</span></a></div>
+                        <div class="btn-group btn-group-sm flex-wrap"
+                            role="group"><button class="btn btn-info text-uppercase d-flex align-items-center mb-2" type="button"><i class="icon-magnifier mr-2"></i><span class="text-nowrap">Wyszukaj</span></button></div>
                     </div>
                 </div>
             </div>
@@ -163,17 +164,17 @@
                             <thead>
                                 <tr class="bg-light">
                                     <th>Nazwa</th>
+                                    <th>Data</th>
                                     <th class="text-right">Opcje</th>
                                 </tr>
                             </thead>
                             <tbody class="vertical--middle">
                                 <tr>
-                                    <th>
-                                        <div class="d-flex align-items-center"><span>Lorem ipsum</span></div>
-                                    </th>
+                                    <th><a href="remit-edit.html">Tytuł informacji</a></th>
+                                    <td>18.06.2020</td>
                                     <td>
                                         <div class="btn-toolbar justify-content-end">
-                                            <div class="btn-group btn-group-sm ml-2" role="group"><button class="btn btn-success text-uppercase d-flex align-items-center" type="button"><i class="icon-pencil mr-2"></i><span>Edytuj</span></button><button class="btn btn-danger text-uppercase d-flex align-items-center ml-2"
+                                            <div class="btn-group btn-group-sm ml-2" role="group"><a class="btn btn-success text-uppercase d-flex align-items-center" role="button" href="remit-edit.html"><i class="icon-pencil mr-2"></i><span>Edytuj</span></a><button class="btn btn-danger text-uppercase d-flex align-items-center ml-2"
                                                     type="button"><i class="icon-trash mr-2"></i><span>Usuń</span></button></div>
                                         </div>
                                     </td>

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
@@ -57,7 +58,10 @@
                     </div>
                     <div class="col-auto d-flex">
                         <ul class="nav">
-                            <li class="nav-item d-none d-sm-flex border-right"><a class="nav-link d-flex align-items-center" href="#" style="font-size: 14px;">PL</a></li>
+                            <li class="nav-item dropdown d-none d-sm-flex align-items-center border-right"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="mr-1">PL</span></a>
+                                <div class="dropdown-menu dropdown-menu-right" role="menu"><a class="dropdown-item" role="presentation" href="#">Polski</a><a class="dropdown-item" role="presentation" href="#">English</a></div>
+                            </li>
+                            <li class="nav-item d-none d-sm-flex border-right"></li>
                             <li class="nav-item d-none d-sm-flex border-right"><a class="nav-link d-flex align-items-center"><i class="icon ion-contrast" style="font-size: 17px;"></i></a></li>
                             <li class="nav-item d-none d-sm-flex border-right"><a class="nav-link d-flex align-items-center" href="#"><i class="icon ion-search" style="font-size: 20px;"></i></a></li>
                             <li class="nav-item d-flex d-lg-none border-right"><a class="nav-link d-flex align-items-center" href="#"><i class="icon ion-android-menu" style="font-size: 24px;"></i></a></li>
@@ -92,6 +96,14 @@
                                     <h3 class="h4 mb-3">Kariera</h3>
                                     <ul class="list-group">
                                         <li class="list-group-item border-white bg-transparent border-left-0 border-right-0 px-0 py-2">
+                                            <div class="d-flex justify-content-between align-items-center"><span><a class="text-white" href="kariera.html">Kariera</a></span><span class="text-warning ml-2"><i class="fas fa-chevron-right"></i></span></div>
+                                            <ul class="list-unstyled pl-3">
+                                                <li class="mt-1"><small class="d-block"><a class="text-white" href="kariera-produkcja.html">Produkcja</a></small></li>
+                                                <li class="mt-1"><small class="d-block"><a class="text-white" href="kariera-wsparcie-produkcji.html">Wsparcie produkcji</a></small></li>
+                                                <li class="mt-1"><small class="d-block"><a class="text-white" href="kariera-pozostale-obszary.html">Pozostałe obszary</a></small></li>
+                                            </ul>
+                                        </li>
+                                        <li class="list-group-item border-white bg-transparent border-left-0 border-right-0 px-0 py-2">
                                             <div class="d-flex justify-content-between align-items-center"><span><a class="text-white" href="rekrutacja.html">Rekrutacja</a></span><span class="text-warning ml-2"><i class="fas fa-chevron-right"></i></span></div>
                                         </li>
                                         <li class="list-group-item border-white bg-transparent border-left-0 border-right-0 px-0 py-2">
@@ -124,7 +136,7 @@
                                                 <p>Zachęcamy do&nbsp;zapoznania się ze stanowiskami, na&nbsp;które możemy poszukiwać kandydatów w&nbsp;obszarze produkcji. Jeśli po&nbsp;zapoznaniu się z&nbsp;opisem obowiązków i&nbsp;wymaganiami na&nbsp;każdym
                                                     stanowisku, zainteresuje Cię praca w&nbsp;naszej organizacji, prosimy o&nbsp;pozostawienie aplikacji w&nbsp;naszej bazie kandydatów. W&nbsp;przypadku prowadzenia projektu rekrutacyjnego odpowiadającego
                                                     Twojej wiedzy, umiejętnościom, doświadczeniu oraz zainteresowaniom, zostaniesz zaproszony/a do&nbsp;wzięciu udziału w&nbsp;rekrutacji.<br></p>
-                                                <p class="mb-0">Stanowiska, na&nbsp;które możemy poszukiwać kandydatów w&nbsp;obszarze produkcji.<br></p>
+                                                <div><a class="btn btn-primary btn-block" role="button" href="kariera-produkcja.html">Stanowiska, na które możemy poszukiwać kandydatów w obszarze produkcji</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -136,7 +148,7 @@
                                             <div class="col">
                                                 <p>Jeśli interesuje Cię praca w&nbsp;obszarze wsparcia produkcji, zostaw swoją aplikację w&nbsp;naszej bazie kandydatów. W&nbsp;przypadku prowadzenia projektu rekrutacyjnego odpowiadającego Twojej wiedzy, umiejętnościom,
                                                     doświadczeniu oraz zainteresowaniom, zaprosimy Cię do&nbsp;wzięcia udziału w&nbsp;rekrutacji.<br></p>
-                                                <p class="mb-0">Zapoznaj się z&nbsp;naszą strukturą administracyjną dostępną w&nbsp;sekcji wsparcie produkcji.<br></p>
+                                                <div><a class="btn btn-primary btn-block" role="button" href="kariera-wsparcie-produkcji.html">Zapoznaj się z naszą strukturą administracyjną dostępną w sekcji wsparcie produkcji</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -148,7 +160,7 @@
                                             <div class="col">
                                                 <p>Jeśli interesuje Cię praca w&nbsp;pozostałych obszarach naszej firmy, zostaw swoją aplikację w&nbsp;naszej bazie kandydatów. W&nbsp;przypadku prowadzenia projektu rekrutacyjnego odpowiadającego Twojej wiedzy,
                                                     umiejętnościom, doświadczeniu oraz zainteresowaniom, zaprosimy Cię do&nbsp;wzięcia udziału w&nbsp;rekrutacji.<br></p>
-                                                <p class="mb-0">Zapoznaj się z&nbsp;naszą strukturą administracyjną dostępną w&nbsp;sekcji pozostałe obszary.<br></p>
+                                                <div><a class="btn btn-primary btn-block" role="button" href="kariera-pozostale-obszary.html">Zapoznaj się z naszą strukturą administracyjną dostępną w sekcji pozostałe obszary</a></div>
                                             </div>
                                         </div>
                                     </div>
